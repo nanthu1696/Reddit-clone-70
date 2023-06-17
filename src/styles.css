@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.appBody {
+  width: 100%;
+  height: 100vh;
+}
+.headContainer {
+  height: 50px;
+  width: 100vw;
+}
+header {
+  /* background-color: #D7DADC; */
+  display: flex;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#logo {
+  background-image: url("./images/logo.png");
+  width: 500px;
+  height: 500px;
+  background-size: 500px 500px;
+  border: none;
+}
